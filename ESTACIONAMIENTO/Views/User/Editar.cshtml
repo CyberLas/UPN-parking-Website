@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<div class="well">
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane active in" id="home">
+            <form action="/User/Editar" method="post">
+                <label>Nombre</label>
+                <input type="text" name="FirstName" value="@Model.FirstName" class="input-xlarge">
+                <label>Apellido</label>
+                <input type="text" name="LastName" value="@Model.LastName" class="input-xlarge">
+                <label>Correo Electronico</label>
+                <input type="email" name="Email" value="@Model.Email" class="input-xlarge">
+                <label>Fecha Nacimiento</label>
+                <input type="date" name="Date" value="@Model.Date.ToString("dd-MM-yyyy")" class="input-xlarge">
+                <label>Genero</label>
+                <select name="Genero" value="@Model.Genero" class="input-xlarge">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+                <div>
+                    <button class="btn">Actualizar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

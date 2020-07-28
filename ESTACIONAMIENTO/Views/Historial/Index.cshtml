@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+<div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#reservastab" aria-controls="home" role="tab" data-toggle="tab">Reservas</a></li>
+        <li role="presentation"><a href="#pagostab" aria-controls="profile" role="tab" data-toggle="tab">Pagos</a></li>
+
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="reservastab">
+            @foreach (var reserva in ViewBag.Reservas)
+            {
+                <div>
+                    <div>
+                        <label>Estacionamiento: @reserva.IdEstacionamiento</label>
+                    </div>
+                    <div>
+                        <label>Horas reservadas: @reserva.NHora</label>
+                    </div>
+                    <div>
+                        <label>Fecha: @reserva.Fecha.ToString("dd-MM-yyyy")</label>
+                    </div>
+                </div>
+                <hr />
+            }
+        </div>
+        <div role="tabpanel" class="tab-pane" id="pagostab">
+            @foreach (var pago in ViewBag.Pagos)
+            {
+                <div>
+                    <div>
+                        <label>Estacionamiento: @pago.IdEstacionamiento</label>
+                    </div>
+                    <div>
+                        <label>Fecha: @pago.Fecha.ToString("dd-MM-yyyy")</label>
+                    </div>
+                    <div>
+                        <label>Horas: @pago.NHoras</label>
+                    </div>
+                    <div>
+                        <label>Tarjeta: @pago.IdTarjeta</label>
+                    </div>
+                </div>
+                <hr />
+            }
+        </div>
+    </div>
+
+</div>

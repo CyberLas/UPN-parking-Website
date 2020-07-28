@@ -1,0 +1,104 @@
+﻿
+@{
+    Layout = null;
+}
+
+    <div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#estatab" aria-controls="home" role="tab" data-toggle="tab">Estacionamientos</a></li>
+            <li role="presentation"><a href="#nresertab" aria-controls="profile" role="tab" data-toggle="tab">Reservar</a></li>
+
+        </ul>
+
+        <!-- Tab panes -->
+
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="estatab">
+                <form action="/Estacionamiento/Pagar" method="post">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Tipo de Vehiculo</th>
+                                <th>Ubicacion</th>
+                                <th>Id_Tarjeta</th>
+                                <th>Medio de Pago</th>
+                                <th>Horas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var estacionamiento in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <input type="hidden" value="@estacionamiento.Id" name="IdEstacionamiento" readonly />
+                                        
+                                        <input type="text" value="@estacionamiento.TipoVehiculo" readonly />
+                                    </td>
+                                    <td>
+                                        <input type="text" value="@estacionamiento.Latitud - @estacionamiento.Longitud" readonly />
+                                    </td>
+                                    <td>
+                                        <select name="IdTarjeta" class="design" id="sel">
+                                            <option value="0">-- Elegir --</option>
+                                            @foreach (var tarjeta in ViewBag.Tarjeta)
+                                            {
+                                                <option value="@tarjeta.Id">@tarjeta.Nombre </option>
+                                            }
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="NHoras" id="car">
+                                            <option value="0">-- Elegir --</option>
+                                            @for (var i = 1; i < 11; i++)
+                                            {
+                                                if (i == 1)
+                                                {
+                                                    <option value="@i">@i hora</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="@i">@i horas</option>
+                                                }
+                                            }
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <button onclick="PromptDemo(this,event)">Comprar</button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="nresertab">
+                <form action="/Estacionamiento/reserva" method="post">
+                    <div>
+                        <label>Estacionamiento</label>
+                        <select name="IdEstacionamiento">
+                            <option>--Escoja un estacionemiento--</option>
+                            @foreach (var est in Model)
+                            {
+                                <option value="@est.Id">@est.Id</option>
+                            }
+                        </select>
+                    </div>
+                    <div>
+                        <label>Horas a reservar</label>
+                        <input type="number" name="NHora" value="1" min="1" />
+                    </div>
+                    <div>
+                        <label>Fecha de reserva</label>
+                        <input type="date" name="Fecha" />
+                    </div>
+
+                    <div>
+                        <button>Reserva</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    

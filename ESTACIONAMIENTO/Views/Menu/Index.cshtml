@@ -1,0 +1,190 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title>Parking Lot</title>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    @* Stripts *@
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script src="~/Routing/leaflet-routing-machine.js"></script>
+    <link href="~/Routing/leaflet-routing-machine.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <style>
+        #map {
+            top: 0px;
+            bottom: 20px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: 700px;
+            /*filter: invert(100%);*/
+        }
+
+        .btn-nav {
+            filter: invert(100%);
+        }
+    </style>
+</head>
+<body class="menu">
+    <div class="body-content" id="map">
+
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="btn-group btn-group-justified ">
+
+            <div class="btn-group  " role="group">
+                <button id="b1" type="button" class="btn btn-nav" href="#tab1" data-toggle="modal" data-target="#perfil">
+                    <div class="visible">Perfil<span class="glyphicon glyphicon-user" aria-hidden="true"> </span></div>
+                </button>
+            </div>
+
+            <div class="btn-group" role="group">
+                <button id="b2" type="button" class="btn btn-nav"  onclick="location.reload();">
+                    <div class="visible">MI ubicación  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
+                </button>
+            </div>
+
+            <div class="btn-group" role="group">
+                <button id="b3" type="button" class="btn btn-nav" href="#tab3" data-toggle="modal" data-target="#aparcamiento">
+                    <div class="visible"> Aparacamientos <span class="glyphicon glyphicon-road" aria-hidden="true"></span></div>
+                </button>
+            </div>
+
+            <div class="btn-group" role="group">
+                <button id="b4" type="button" class="btn btn-nav" href="#tab4" data-toggle="modal" data-target="#pago">
+
+                    <div class="visible"> Medio de Pago <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span></div>
+                </button>
+            </div>
+
+            <div class="btn-group" role="group">
+                <button id="b5" type="button" class="btn btn-nav" href="#tab5" data-toggle="modal" data-target="#vehiculos">
+                    <div class="visible"> Vehiculos <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span></div>
+                </button>
+            </div>
+
+            <div class="btn-group" role="group">
+                <button id="b6" type="button" class="btn btn-nav" href="#tab6" data-toggle="modal" data-target="#historial">
+                    <div class="visible"> Historial <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <a type="button" id="cerrar" class="btn btn-nav" href="/User/Logout">
+                    <div class="visible"> Cerrar Sessión <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    @* Modal perfil *@
+    <div class="modal fade" id="perfil" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Perfil</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="mod1">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary"  id="editarPerfil">Editar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    @* Modal aparcamientos *@
+    <div class="modal fade" id="aparcamiento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Aparcamientos</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="aparcamientos">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @* Modal medios de pago *@
+    <div class="modal fade" id="pago" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Medios de pago</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="Ubicacion">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="CreaTarjeta">Nueva Tarjeta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @* Modal vehiculos *@
+    <div class="modal fade" id="vehiculos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Vehiculos</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="vehiculosmod" style="max-height: 400px; width:auto;  overflow-y:auto; overflow-x:hidden; text-align: center;">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="nuevoV">Nuevo vehiculo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @* Modal historial *@
+    <div class="modal fade" id="historial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body" id="historialmod">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="~/js/site.js"></script>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

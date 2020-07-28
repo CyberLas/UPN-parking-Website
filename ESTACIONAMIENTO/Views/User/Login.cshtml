@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="~/css/site.css" rel="stylesheet" />
+}
+
+<style>
+
+    .card {
+        height: 370px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 400px;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+</style>
+
+<div style="display: flex; justify-content:center; align-items: center;">
+
+    <div class="card">
+        <div class="card-header" style="color: white; text-align: center;">
+            <h3>Iniciar Sessión</h3>
+        </div>
+        <div class="card-body" >
+            <form action="/User/Login" method="post">
+                <div class="input-group form-group" style="margin-top:20px;">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="fas fa-user"></i>
+                        </span>
+                    </div>
+                    <input type="email" class="form-control" required placeholder="Correo Electrónico" name="email" >
+                </div>
+                <div class="input-group form-group" style="margin-top:20px;">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="fas fa-key"></i>
+                        </span>
+                    </div>
+                    <input type="password" class="form-control" required placeholder="Contraseña" name="password">
+                </div>
+                <div class="form-group" style="text-align:center;">
+                    <button class="btn" style="background-color: orange; margin-top: 30px;"> Iniciar Session </button>
+                </div>
+            </form>
+        </div>
+        <div class="card-footer" style="color:white; text-align: center;">
+            <div class="d-flex justify-content-center links">
+                <a href="/User/Registro">Crear una Cuenta</a>
+            </div>
+            <br />
+            <div class="d-flex justify-content-center links">
+                <a href="/Recovery/Index">¿Olvidaste tu cuenta?</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

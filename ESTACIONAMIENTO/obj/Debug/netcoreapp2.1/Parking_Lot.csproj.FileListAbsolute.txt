@@ -1,0 +1,92 @@
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.deps.json
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.runtimeconfig.json
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.runtimeconfig.dev.json
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.dll
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.pdb
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.Views.dll
+D:\Proyectos web\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.Views.pdb
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.csprojAssemblyReference.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorAssemblyInfo.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorAssemblyInfo.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.AssemblyInfoInputs.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.AssemblyInfo.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.TagHelpers.input.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.TagHelpers.output.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorCoreGenerate.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorTargetAssemblyInfo.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorTargetAssemblyInfo.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.Views.pdb
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.dll
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.pdb
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.genruntimeconfig.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.csproj.CopyComplete
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.csproj.CoreCompileInputs.cache
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\User\Registro.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\User\Login.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Home\Principal.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\User\Editar.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Home\Servicios.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Home\Soporte.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Menu\Index.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\User\Index.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Estacionamiento\Index.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Tarjeta\Index.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Tarjeta\Crear.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Index.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Crear.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Editar.cshtml.g.cs
+D:\Proyectos web\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Historial\Index.cshtml.g.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.deps.json
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.runtimeconfig.json
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.runtimeconfig.dev.json
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.dll
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.pdb
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.Views.dll
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\bin\Debug\netcoreapp2.1\Parking_Lot.Views.pdb
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.csprojAssemblyReference.cache
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.csproj.CoreCompileInputs.cache
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorAssemblyInfo.cache
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorAssemblyInfo.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.AssemblyInfoInputs.cache
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.AssemblyInfo.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.TagHelpers.input.cache
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.TagHelpers.output.cache
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorCoreGenerate.cache
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Estacionamiento\Index.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Historial\Index.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Home\Principal.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Home\Servicios.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Home\Soporte.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Menu\Index.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Tarjeta\Crear.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Tarjeta\Index.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\User\Editar.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\User\Index.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\User\Login.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\User\Registro.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Crear.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Editar.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\Vehiculos\Index.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorTargetAssemblyInfo.cache
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.RazorTargetAssemblyInfo.cs
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.Views.pdb
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.dll
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.pdb
+C:\Users\CyberCup\Desktop\Parking_Lot\Parking_Lot\obj\Debug\netcoreapp2.1\Parking_Lot.csproj.CopyComplete

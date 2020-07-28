@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<div>
+    @foreach (var vehiculo in Model) 
+    { 
+        
+        <div class="row">
+            <div class="col-md-2">
+                <label>
+                    Tipo: @vehiculo.Tipo
+                </label>
+            </div>
+            <div class="col-md-2">
+                <label>
+                    Color:
+                    <input type="Color" disabled value="@vehiculo.Color" />
+                </label>
+            </div>
+            <div class="col-md-2">
+                <label>
+                    Descripcion: @vehiculo.Descripcion
+                </label>
+            </div>
+            <div class="col-md-2">
+                <label>
+                    Marca: @vehiculo.Marca
+                </label>
+            </div>
+            <div class="col-md-2">
+                <label>
+                    Modelo: @vehiculo.Modelo
+                </label>
+            </div>
+            <div class="col-md-2">
+                <a href="/Vehiculos/Borrar?id=@vehiculo.Id" class="btn">Borrar</a>
+
+            </div>
+
+        </div>
+    }
+</div>

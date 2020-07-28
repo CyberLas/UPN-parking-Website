@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+<div>
+    @foreach (var tarjeta in Model) 
+        { 
+        
+            <div class="row">
+                <div class="col-md-2">
+                    <label>
+                        Nombre : @tarjeta.Nombre
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label>
+                        Numero : @tarjeta.Numero
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label>
+                        CV2 : @tarjeta.CV2
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <button>Editar</button>
+                </div>
+            </div>
+        }
+</div>

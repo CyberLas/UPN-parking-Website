@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<div>
+    <form action="/Vehiculos/Editar" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div>
+            <label>Tipo</label>
+            <input type="text" name="Tipo" value="@Model.Tipo" placeholder="Tipo" />
+        </div>
+        <div>
+            <label>Color</label>
+            <input type="color" name="Color" value="@Model.Color" placeholder="Color" />
+        </div>
+        <div>
+            <label>Descripcion</label>
+            <input type="text" name="Descripcion" value="@Model.Descripcion" placeholder="Descripcion" />
+        </div>
+        <div>
+            <label>Marca</label>
+            <input type="text" name="Marca" value="@Model.Marca" placeholder="Marca" />
+        </div>
+        <div>
+            <label>Modelo</label>
+            <input type="text" name="Modelo" value="@Model.Modelo" placeholder="Modelo" />
+        </div>
+        <div>
+            <button class="btn">Guardar</button>
+        </div>
+    </form>
+</div>
+
+

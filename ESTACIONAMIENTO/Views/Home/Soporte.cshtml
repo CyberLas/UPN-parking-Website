@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "Soporte";
+}
+
+<h1 id="text">Soporte Técnico</h1>
+<br />
+<div class="container">
+    <br />
+    @*<form class="well span8" role="form" action="~/php/enviar.php" method="post">*@
+    <form class="well span8" action="https://localhost:44372/">
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="form-group">
+                    <label>Nombres y Apellidos</label>
+                    <input type="text" class="form-control" requerid placeholder="Ingresar Nombre y Apellido" name="nombre">
+                </div>
+
+                <div class="form-group">
+                    <label>Correo Electrónico</label>
+                    <input type="email" class="form-control" requerid placeholder="Ingresar Correo Electronico" name="correo">
+                </div>
+
+                <div class="form-group">
+                    <label>Opcion de Soporte</label>
+                    <select required class="form-control" id="subject" name="tipo">
+                        <option selected value=null>-- [ Seleccionar una Opcion ] --</option>
+                        <option value="Reclamos"> Reclamos </option>
+                        <option value="Servicios"> Servicios </option>
+                        <option value="Ayuda"> Ayuda </option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="col-md-8">
+                <label>Descripción</label>
+                <textarea class="form-control" rows="10" required name="descripcion"></textarea>
+                @*<button class="btn btn-primary pull-right voffset3" type="submit">Enviar</button>*@
+                <button class="btn btn-primary pull-right voffset3" type="submit">Enviar</button>
+            </div>
+        </div>
+    </form>
+</div>

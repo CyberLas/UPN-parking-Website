@@ -1,0 +1,20 @@
+﻿
+@{
+    Layout = null;
+}
+
+    <div>
+        <form action="/Tarjeta/crear" method="post">
+            <label for="inputNumero">Nombre del la Tarjeta : </label>
+            <input type="text" maxlength="30" name="Nombre" required>
+            <label for="inputNumero">Número Tarjeta : </label>
+            <input type="text" maxlength="16" name="Numero" required>
+            <label>Fecha</label>
+            <input type="date" name="Fecha" />
+            <label>CV2</label>
+            <input type="text" maxlength="3" name="CV2" required>
+            <div>
+                <button class="btn">Guardar</button>
+            </div>
+        </form>
+    </div>

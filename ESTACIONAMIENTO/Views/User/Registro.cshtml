@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewData["Title"] = "Registro";
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="~/css/site.css" rel="stylesheet" />
+}
+<style>
+    .card {
+        height: 450px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 400px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 13px 13px 13px 13px;
+        -moz-border-radius: 13px 13px 13px 13px;
+        -webkit-border-radius: 13px 13px 13px 13px;
+        border: 0px solid #000000;
+    }
+</style>
+<div style="display: flex; justify-content:center; align-items: center;">
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <div class="card-header"  style="color: white; text-align: center;">
+                <h3>Registrase</h3>
+            </div>
+            <div class="card-body">
+                <form action="/User/Registro" method="post">
+                    <div class="input-group form-group" style="margin-top:20px;">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-address-card"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" required placeholder="Nombres" name="FirstName">
+                    </div>
+
+                    <div class="input-group form-group" style="margin-top:20px;">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="far fa-address-card"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" required placeholder="Apellidos" name="LastName">
+                    </div>
+
+                    <div class="input-group form-group" style="margin-top:20px;">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                        <input type="date" class="form-control" name="Date" required>
+                    </div>
+
+                    <div class="input-group form-group" style="margin-top:20px;">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-at"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" required placeholder="Correo Electrónico" name="email">
+
+                    </div>
+                    <div class="input-group form-group" style="margin-top:20px;">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-key"></i>
+                            </span>
+                        </div>
+                        <input type="password" class="form-control" required placeholder="Contraseña" name="password">
+                    </div>
+
+                    <div class="input-group form-group" style="margin-top:20px;">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-venus-mars"></i>
+                            </span>
+                        </div>
+                        <select name="Genero" required id="Genero">
+                            <option value="null">-- [ Seleccionar su Genero] -- </option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="text-align:center;">
+                        <button class="btn" style="background-color: orange; margin-top: 30px;"> Crear Cuenta </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+

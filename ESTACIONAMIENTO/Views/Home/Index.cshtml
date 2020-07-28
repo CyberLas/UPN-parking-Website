@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="text-center">
+    <h1 style="color: white; font-size: 70px;">Parking Lot</h1>
+</div>
+<hr />
+<div class="col-xs-4 text-center">
+    <div style="width: auto; height: 100px">
+        <a href="/User/Login" class="btn btn-danger" id="Iniciar">Iniciar Sessión</a>
+    </div>
+    <div style="width: auto; height:100px">
+        <a href="/User/Registro" class="btn btn-danger" id="Crear">Crear cuenta</a>
+    </div>
+</div>
+<div class="col-xs-8">
+    <div class="text-center text-justify" id="Recuadro">
+        <p style="color: white; font-size: 20px;">
+            Para darte seguridad a ti y especialmente a tu vehiculo llega Parking Lot
+            una web que te ayudara a encontrar un estacionamiento con lugares disponibles
+            y te guiara hasta el.
+        </p>
+    </div>
+    <div id="cookieConsent">
+        <div id="closeCookieConsent">x</div>
+        Nosotros y nuestros socios utilizamos tecnologías, como las cookies, y procesamos datos personales, como las direcciones IP y los identificadores de cookies, para personalizar los anuncios y el contenido según sus intereses, medir el rendimiento de los anuncios y el contenido y obtener información sobre las audiencias que vieron los anuncios y el contenido. Haga clic a continuación para autorizar el uso de esta tecnología y el procesamiento de sus datos personales para estos fines. Puede cambiar de opinión y cambiar sus opciones de consentimiento en cualquier momento al regresar a este sitio.<a href="#" target="_blank">More info</a>. <a class="cookieConsentOK">That's Fine</a>
+    </div>
+</div>
+<style>
+    /*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+/*Cookie Consent End*/
+</style>
+<script>
+    Notification.requestPermission().then(() => new Notification('Hola mundo!   ' + 123))
+    $(document).ready(function () {
+        setTimeout(function () {
+            $("#cookieConsent").fadeIn(200);
+        }, 4000);
+        $("#closeCookieConsent, .cookieConsentOK").click(function () {
+            $("#cookieConsent").fadeOut(200);
+        });
+    }); 
+</script>
